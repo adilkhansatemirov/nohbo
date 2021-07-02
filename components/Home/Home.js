@@ -3,7 +3,7 @@ import Subheader from 'components/Home/Subheader/Subheader';
 
 function Home() {
   return (
-    <div>
+    <div style={{ overflowX: 'hidden' }}>
       <Header />
       <Subheader />
     </div>
