@@ -1,0 +1,30 @@
+@import '../../Base/variables.scss';
+
+.subheader {
+  padding-bottom: 200px;
+
+  &__dropImage {
+    width: 464px;
+    margin: 125px auto 0;
+    position: relative;
+    top: 0;
+    transition: 0.3s all;
+  }
+
+  &__dropImage__lower {
+    top: 20px;
+  }
+
+  &__description__container {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    color: $primaryBlue;
+  }
+
+  &__description {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+}

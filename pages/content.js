@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import sanityClient from 'sanity-client';
-import homeStyles from 'styles/Home.module.css';
+import homeStyles from 'styles/Home.module.scss';
 import contentStyles from 'styles/Content.module.css';
 
 export default function Content() {

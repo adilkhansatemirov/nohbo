@@ -1,0 +1,48 @@
+@import '../Base/variables.scss';
+@import '../Base/mixins.scss';
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s all;
+  padding: 40px 0;
+
+  &__shrinked {
+    background: white;
+    padding: 20px 0;
+  }
+}
+
+.nav__container {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navImageConainer {
+  width: 100px;
+  position: relative;
+
+  @media (max-width: 600px) {
+    width: 50px;
+  }
+}
+
+.navList {
+  display: flex;
+}
+
+.navItem {
+  margin-left: 35px;
+  color: $primaryBlue;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.2s all;
+
+  &:hover {
+    color: $coralGreen;
+  }
+}

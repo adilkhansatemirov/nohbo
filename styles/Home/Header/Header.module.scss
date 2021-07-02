@@ -1,0 +1,25 @@
+@import '../../Base/variables.scss';
+
+.header {
+  background: $lightBlue;
+  position: relative;
+  padding: 160px 0;
+
+  &__title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: $primaryBlue;
+    font-weight: 500;
+    font-size: 64px;
+  }
+
+  &__waterImage {
+    width: 3500px;
+    height: 924px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -487px;
+  }
+}
