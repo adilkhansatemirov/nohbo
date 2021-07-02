@@ -5,22 +5,11 @@ function Subheader() {
   const dropElement = useRef(null);
 
   useEffect(() => {
+    dropElement.current.style.top = '0px';
     const handleScroll = () => {
-      if (window.scrollY > 350 && window.scrollY < 400) {
-        // console.log('dropElement.current.style', dropElement.current.style.top);
-        console.log('window.scrollY', 400 - window.scrollY);
-        dropElement.current.style.top = 400 - window.scrollY;
+      if (window.scrollY > 300 && window.scrollY < 370) {
+        dropElement.current.style.top = `${Math.abs(300 - window.scrollY)}px`;
       }
-      //   console.log('window.scrollY', window.scrollY);
-      //   if (window.scrollY === 0) {
-      //     setIsScrollOnTop(true);
-      //     console.log('setIsScrollOnTop(true);');
-      //     return;
-      //   }
-      //   if (window.scrollY > 0 && isScrollOnTop) {
-      //     setIsScrollOnTop(false);
-      //     console.log('setIsScrollOnTop(false);');
-      //   }
     };
     window.addEventListener('scroll', handleScroll);
     return () => {
