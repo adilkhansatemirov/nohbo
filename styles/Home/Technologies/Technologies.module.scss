@@ -1,0 +1,35 @@
+@import '../../Base/variables.scss';
+@import '../../Base/mixins.scss';
+
+.technoloies {
+  background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
+
+  &__container {
+    @include container;
+
+    display: flex;
+  }
+
+  &__textContainer {
+    padding: 120px 0;
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+  &__description {
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 37px;
+    color: $primaryBlue;
+  }
+
+  &__image {
+    margin-left: 60px;
+    width: 500px;
+    align-self: flex-end;
+  }
+}

@@ -1,7 +1,7 @@
 @import '../../Base/variables.scss';
 
 .subheader {
-  padding-bottom: 200px;
+  padding-bottom: 122px;
 
   &__dropImage {
     width: 464px;
@@ -20,6 +20,15 @@
     margin: 0 auto;
     text-align: center;
     color: $primaryBlue;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 45px;
+      border-bottom: 1px solid $primaryBlue;
+      border-right: 1px solid $primaryBlue;
+    }
   }
 
   &__description {

@@ -1,0 +1,113 @@
+@import '../../Base/mixins.scss';
+@import '../../Base/variables.scss';
+
+.container {
+  @include container;
+
+  padding: 110px 0 30px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 130px;
+}
+
+.image__container {
+  flex-basis: 50%;
+  position: relative;
+  padding: 60px 0;
+}
+
+.image__many_drops {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image__one_drop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.text__container {
+  position: relative;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 50px;
+  color: $primaryBlue;
+}
+
+.left_lines_top {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-top: 1px solid $primaryBlue;
+  border-left: 1px solid $primaryBlue;
+  border-right: 1px solid $primaryBlue;
+}
+
+.left_lines_bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 45px;
+    height: 45px;
+    border-bottom: 1px solid $primaryBlue;
+  }
+
+  &::before {
+    left: 0;
+    border-left: 1px solid $primaryBlue;
+  }
+
+  &::after {
+    right: 0;
+    border-right: 1px solid $primaryBlue;
+  }
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.description {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.right_lines_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  border-top: 1px solid $primaryBlue;
+}
+
+.border_right {
+  border-right: 1px solid $primaryBlue;
+}
+
+.border_left {
+  border-left: 1px solid $primaryBlue;
+}

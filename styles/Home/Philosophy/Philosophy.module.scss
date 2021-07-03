@@ -1,0 +1,36 @@
+@import '../../Base/mixins.scss';
+@import '../../Base/variables.scss';
+
+.philosophy {
+  background: $lightBlue;
+  padding-top: 170px;
+  padding-bottom: 120px;
+  color: $primaryBlue;
+  text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 50%;
+    height: 60px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.container {
+  @include container;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.description {
+  width: 85%;
+  font-size: 20px;
+  margin: 40px auto 0;
+}

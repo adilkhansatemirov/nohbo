@@ -18,7 +18,7 @@ function Subheader() {
   }, []);
 
   return (
-    <div className={SubheaderStyles.subheader}>
+    <section className={SubheaderStyles.subheader}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img ref={dropElement} className={SubheaderStyles.subheader__dropImage} src="/images/drop.png" alt="drop" />
       <div className={SubheaderStyles.subheader__description__container}>
@@ -27,7 +27,7 @@ function Subheader() {
           without a trace.
         </h2>
       </div>
-    </div>
+    </section>
   );
 }
 
