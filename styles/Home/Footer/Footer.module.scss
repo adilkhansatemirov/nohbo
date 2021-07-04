@@ -1,0 +1,59 @@
+@import '../../Base/mixins.scss';
+@import '../../Base/variables.scss';
+
+.footer {
+  background: $primaryBlue;
+  color: white;
+  padding: 80px 0 30px;
+}
+
+.container {
+  @include container;
+}
+
+.logoNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navItem {
+  margin-left: 40px;
+}
+
+.social {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+
+  img {
+    margin-right: 20px;
+  }
+}
+
+.email {
+  margin-top: 25px;
+}
+
+.phone {
+  margin-top: 25px;
+}
+
+.address {
+  margin-top: 25px;
+}
+
+.copyright {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}

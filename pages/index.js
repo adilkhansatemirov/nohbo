@@ -1,13 +1,16 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from '../styles/Home.module.scss';
-import Nav from 'components/Nav/Nav';
 import Header from 'components/Home/Header/Header';
 import Subheader from 'components/Home/Subheader/Subheader';
 import Technologies from 'components/Home/Technoloies/Technologies';
 import Products from 'components/Home/Products/Products';
 import Philosophy from 'components/Home/Philosophy/Philosophy';
+import Brand from 'components/Home/Brand/Brand';
+import Buzz from 'components/Home/Buzz/Buzz';
+import Subscribe from 'components/Home/Subscribe/Subscribe';
+import Contact from 'components/Home/Contact/Contact';
+import Footer from 'components/Home/Footer/Footer';
+
+import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
@@ -22,40 +25,11 @@ export default function Home() {
       <Technologies />
       <Products />
       <Philosophy />
-      {/* <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to future Nohbo webpage</h1>
-        <div
-          style={{
-            marginTop: '10px',
-          }}
-        >
-          <Link href="/content">
-            <a
-              style={{
-                color: '#0070f3',
-                textDecoration: 'none',
-                fontWeight: 'bold',
-                fontSize: '20px'
-              }}
-            >
-              Go to content →
-            </a>
-          </Link>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+      <Brand />
+      <Buzz />
+      <Subscribe />
+      <Contact />
+      <Footer />
     </div>
   );
 }
