@@ -37,7 +37,7 @@ const navItems = [
   {
     id: 7,
     text: 'Contact Us',
-    href: '/content',
+    href: '/contact-us',
   },
 ];
 

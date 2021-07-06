@@ -24,4 +24,19 @@
   &:active {
     background: darken($color: $primaryBlue, $amount: 10%);
   }
+
+  &:disabled {
+    background: $gray;
+  }
+}
+
+@mixin input {
+  padding: 10px 15px;
+  border: none;
+}
+
+@mixin input-bordered {
+  @include input;
+
+  border: 1px solid #c4c4c4;
 }

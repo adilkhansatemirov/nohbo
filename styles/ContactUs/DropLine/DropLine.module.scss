@@ -1,0 +1,28 @@
+@import '../../Base/variables.scss';
+
+.dropLine {
+  flex-basis: 50%;
+  color: $primaryBlue;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.subtitle {
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.email {
+  margin-top: 35px;
+}
+
+.number {
+  margin-top: 25px;
+}
+
+.address {
+  margin-top: 25px;
+}

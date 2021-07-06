@@ -8,7 +8,7 @@ import Brand from 'components/Home/Brand/Brand';
 import Buzz from 'components/Home/Buzz/Buzz';
 import Subscribe from 'components/Home/Subscribe/Subscribe';
 import Contact from 'components/Home/Contact/Contact';
-import Footer from 'components/Home/Footer/Footer';
+import Footer from 'components/Footer/Footer';
 
 import styles from '../styles/Home.module.scss';
 
