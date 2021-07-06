@@ -22,7 +22,7 @@ const navItems = [
   {
     id: 4,
     text: 'Brands',
-    href: '/content',
+    href: '/brands',
   },
   {
     id: 5,

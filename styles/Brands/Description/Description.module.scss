@@ -1,0 +1,62 @@
+@import '../../Base/mixins.scss';
+
+.container {
+  @include container;
+  padding: 70px 0 100px;
+}
+
+.descriptionContainer {
+  &::after {
+    margin-top: 40px;
+    content: '';
+    display: block;
+    height: 45px;
+    width: 100%;
+    border-left: 1px solid $primaryBlue;
+    border-right: 1px solid $primaryBlue;
+    border-bottom: 1px solid $primaryBlue;
+  }
+}
+
+.description {
+  width: 80%;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: $primaryBlue;
+}
+
+.sunriseContainer {
+  display: flex;
+  margin-top: 170px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid $primaryBlue;
+}
+
+.sunriseText {
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 55px;
+  color: $primaryBlue;
+  flex-basis: 55%;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    height: 47px;
+    border-right: 1px solid $primaryBlue;
+  }
+}
+
+.sunriseImageContainer {
+  flex-basis: 45%;
+}
+
+.sunriseImage {
+  margin: 0 auto;
+  width: 80%;
+}
