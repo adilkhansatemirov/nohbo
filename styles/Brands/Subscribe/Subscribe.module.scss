@@ -1,0 +1,66 @@
+@import '../../Base/mixins.scss';
+
+.subscribe {
+  background: $lightBlue;
+  padding: 100px 0;
+}
+
+.container {
+  @include container;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 37px;
+  color: $primaryBlue;
+  text-align: center;
+}
+
+.form {
+  width: 490px;
+  margin: 70px auto;
+}
+
+.inputLine {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.inputContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.helperText {
+  margin-top: 5px;
+  color: $errorRed;
+  font-size: 14px;
+}
+
+.input {
+  @include input;
+  color: $primaryBlue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  flex: 1;
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid $primaryBlue;
+  }
+}
+
+.inputError {
+  border: 1px solid $errorRed;
+}
+
+.button {
+  @include button;
+
+  padding-left: 70px;
+  padding-right: 70px;
+
+  margin: 0 auto;
+}

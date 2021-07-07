@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Nav from 'components/Nav/Nav';
 import Header from 'components/Brands/Header/Header';
 import Description from 'components/Brands/Description/Description';
+import Subscribe from 'components/Brands/Subscribe/Subscribe';
 import Footer from 'components/Footer/Footer';
 
 function Brands({ toast }) {
@@ -15,6 +16,7 @@ function Brands({ toast }) {
       <Nav />
       <Header />
       <Description />
+      <Subscribe />
       <Footer />
     </div>
   );

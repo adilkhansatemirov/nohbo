@@ -32,7 +32,6 @@ function Form({ toast }) {
 
   function onSubmit(data) {
     setSubmitting(true);
-    console.log('toast', toast);
     axios
       .post('https://nonbo-api.herokuapp.com/mail', data)
       .then(() => {
