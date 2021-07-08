@@ -27,7 +27,7 @@ const navItems = [
   {
     id: 5,
     text: 'Team',
-    href: '/content',
+    href: '/team',
   },
   {
     id: 6,
