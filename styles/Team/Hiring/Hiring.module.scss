@@ -1,0 +1,33 @@
+@import '../../Base/mixins.scss';
+
+.hiring {
+  background: radial-gradient(
+    47.78% 263.65% at 46.91% 43.96%,
+    rgba(162, 157, 251, 0.38) 9.37%,
+    rgba(235, 219, 146, 0.38) 100%
+  );
+}
+
+.container {
+  @include container;
+
+  padding: 70px 0 100px;
+  display: flex;
+  align-items: center;
+  color: $primaryBlue;
+}
+
+.title {
+  flex-basis: 40%;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.descriptionContainer {
+  flex-basis: 60%;
+
+  p {
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+}

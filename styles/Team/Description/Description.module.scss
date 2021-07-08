@@ -1,0 +1,96 @@
+@import '../../Base/mixins.scss';
+
+.container {
+  @include container;
+  padding: 70px 0 100px;
+}
+
+.founderContainer {
+  display: flex;
+  margin-top: 130px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid $primaryBlue;
+}
+
+.founderText {
+  padding-left: 30px;
+  flex-basis: 55%;
+  color: $primaryBlue;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    height: 47px;
+    border-right: 1px solid $primaryBlue;
+  }
+}
+
+.founderName {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.founderPosition {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.founderDescription {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.founderImageContainer {
+  flex-basis: 45%;
+}
+
+.founderImage {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.supportersTitle {
+  margin-top: 110px;
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+  color: $primaryBlue;
+}
+
+.supportersImageContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.supporterImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: $primaryBlue;
+  }
+
+  &:last-child::after {
+    display: none;
+  }
+}
+
+.supportersImage {
+  max-height: 150px;
+  max-width: 250px;
+}
