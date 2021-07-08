@@ -7,7 +7,7 @@ const navItems = [
   {
     id: 1,
     text: 'Home',
-    href: '/content',
+    href: '/',
   },
   {
     id: 2,
