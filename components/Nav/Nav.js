@@ -32,7 +32,7 @@ const navItems = [
   {
     id: 6,
     text: 'Press',
-    href: '/content',
+    href: '/press',
   },
   {
     id: 7,
