@@ -12,7 +12,7 @@ const navItems = [
   {
     id: 2,
     text: 'Purpose',
-    href: '/content',
+    href: '/purpose',
   },
   {
     id: 3,

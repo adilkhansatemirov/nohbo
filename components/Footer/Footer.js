@@ -5,12 +5,12 @@ const navItems = [
   {
     id: 1,
     text: 'Home',
-    href: '/content',
+    href: '/',
   },
   {
     id: 2,
     text: 'Purpose',
-    href: '/content',
+    href: '/purpose',
   },
   {
     id: 3,
@@ -20,22 +20,22 @@ const navItems = [
   {
     id: 4,
     text: 'Brands',
-    href: '/content',
+    href: '/brands',
   },
   {
     id: 5,
     text: 'Team',
-    href: '/content',
+    href: '/team',
   },
   {
     id: 6,
     text: 'Press',
-    href: '/content',
+    href: '/press',
   },
   {
     id: 7,
     text: 'Contact Us',
-    href: '/content',
+    href: '/contact',
   },
 ];
 
