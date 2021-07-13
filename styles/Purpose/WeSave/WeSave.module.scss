@@ -1,0 +1,96 @@
+@import '../../Base/mixins.scss';
+
+.weSave {
+  padding: 80px 0;
+  background: radial-gradient(
+    47.78% 263.65% at 46.91% 43.96%,
+    rgba(162, 157, 251, 0.38) 9.37%,
+    rgba(235, 219, 146, 0.38) 100%
+  );
+}
+
+.container {
+  @include container;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 37px;
+  color: $primaryBlue;
+}
+
+.list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item {
+  max-width: 260px;
+}
+
+.itemImage {
+  max-height: 240px;
+  margin-bottom: 30px;
+}
+
+.itemText {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: $primaryBlue;
+}
+
+.perMillion {
+  color: $primaryBlue;
+  padding: 100px 0;
+}
+
+.perMillionTitle {
+  font-weight: 700;
+  font-size: 37px;
+  width: 40%;
+  border-right: 1px solid $primaryBlue;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.perMillionStats {
+  width: 60%;
+  padding-left: 55px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 57px;
+    height: 1px;
+    background: $primaryBlue;
+  }
+}
+
+.perMillionContainer {
+  display: flex;
+}
+
+.perMillionStatsItem {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  span {
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  p {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+}

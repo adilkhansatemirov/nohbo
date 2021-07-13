@@ -1,0 +1,95 @@
+@import '../../Base/mixins.scss';
+
+.container {
+  @include container;
+  padding: 70px 0 100px;
+}
+
+.mainText {
+  font-size: 30px;
+  text-align: center;
+  color: $primaryBlue;
+
+  &::after {
+    margin-top: 40px;
+    content: '';
+    display: block;
+    height: 45px;
+    width: 100%;
+    border-right: 1px solid $primaryBlue;
+    border-bottom: 1px solid $primaryBlue;
+  }
+}
+
+.billion {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billionImage {
+  padding: 20px;
+  width: 367px;
+}
+
+.billionText {
+  padding-left: 100px;
+  font-size: 50px;
+  font-weight: 700;
+  color: $primaryBlue;
+}
+
+.impact {
+  border-top: 1px solid $primaryBlue;
+  margin-top: 140px;
+  display: flex;
+  color: $primaryBlue;
+  align-items: center;
+}
+
+.impactText {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 45px;
+  border-right: 1px solid $primaryBlue;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.impactPercent {
+  padding: 40px 65px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    width: 1px;
+    background: $primaryBlue;
+  }
+}
+
+.impactPercentItem {
+  display: flex;
+  align-items: center;
+
+  &:nth-child(2) {
+    margin: 40px 0;
+  }
+
+  h3 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 40px;
+  }
+}

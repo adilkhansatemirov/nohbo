@@ -1,0 +1,17 @@
+@import '../../Base/mixins.scss';
+
+.header {
+  padding: 200px 0 170px;
+  background: $lightBlue
+}
+
+.title {
+  color: $primaryBlue;
+  font-size: 64px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container {
+  @include container;
+}
