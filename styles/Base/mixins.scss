@@ -10,6 +10,14 @@
   font-weight: 700;
 }
 
+@mixin sectionTitle {
+  text-align: center;
+  color: $primaryBlue;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+}
+
 @mixin button {
   background: $primaryBlue;
   color: white;

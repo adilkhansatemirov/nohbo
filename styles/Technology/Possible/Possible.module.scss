@@ -1,0 +1,75 @@
+@import '../../Base/mixins.scss';
+
+.container {
+  @include container;
+
+  padding: 80px 0 200px;
+}
+
+.title {
+  @include sectionTitle;
+}
+
+.lab1 {
+  margin-top: 120px;
+  width: 70%;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.lab1TextContainer {
+  width: 500px;
+  padding: 30px 55px;
+  background: $lightBlue;
+  color: $primaryBlue;
+  position: absolute;
+  right: -250px;
+  top: 150px;
+
+  h5 {
+    font-size: 37px;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+.lab2 {
+  margin-top: 220px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+
+  img {
+    width: 70%;
+  }
+}
+
+.lab2TextContainer {
+  width: 500px;
+  padding: 30px 55px;
+  background: $lightBlue;
+  color: $primaryBlue;
+  position: absolute;
+  left: 0;
+  top: 150px;
+
+  h5 {
+    font-size: 37px;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}

@@ -5,6 +5,8 @@ import Solutions from 'components/Technology/Solutions/Solutions';
 import Contact from 'components/Home/Contact/Contact';
 import Products from 'components/Technology/Products/Products';
 import Provide from 'components/Technology/Provide/Provide';
+import Possible from 'components/Technology/Possible/Possible';
+import Advantage from 'components/Technology/Advantage/Advantage';
 import Footer from 'components/Footer/Footer';
 
 function Technology({ toast }) {
@@ -20,6 +22,8 @@ function Technology({ toast }) {
       <Solutions />
       <Products />
       <Provide />
+      <Possible />
+      <Advantage />
       <Contact />
       <Footer />
     </div>
