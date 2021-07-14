@@ -1,0 +1,53 @@
+@import '../../Base/mixins.scss';
+
+.container {
+  @include container;
+
+  color: $primaryBlue;
+}
+
+.provide {
+  padding: 60px 0;
+  background: radial-gradient(
+    47.78% 263.65% at 46.91% 43.96%,
+    rgba(162, 157, 251, 0.38) 9.37%,
+    rgba(235, 219, 146, 0.38) 100%
+  );
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1;
+  margin-right: 60px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h4 {
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 37px;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}

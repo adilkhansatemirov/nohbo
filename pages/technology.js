@@ -3,6 +3,8 @@ import Nav from 'components/Nav/Nav';
 import Header from 'components/Technology/Header/Header';
 import Solutions from 'components/Technology/Solutions/Solutions';
 import Contact from 'components/Home/Contact/Contact';
+import Products from 'components/Technology/Products/Products';
+import Provide from 'components/Technology/Provide/Provide';
 import Footer from 'components/Footer/Footer';
 
 function Technology({ toast }) {
@@ -16,6 +18,8 @@ function Technology({ toast }) {
       <Nav />
       <Header />
       <Solutions />
+      <Products />
+      <Provide />
       <Contact />
       <Footer />
     </div>
