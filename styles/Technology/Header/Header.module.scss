@@ -1,0 +1,43 @@
+@import '../../Base/mixins.scss';
+
+.header {
+  padding: 180px 0 0px;
+  background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
+}
+
+.container {
+  @include container;
+
+  display: flex;
+}
+
+.main {
+  width: 50%;
+}
+
+.upperTitle {
+  margin-top: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.title {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 79px;
+  color: $primaryBlue;
+}
+
+.subTitle {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: white;
+}
+
+.image {
+  width: 50%;
+}

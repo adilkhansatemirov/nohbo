@@ -17,7 +17,7 @@ const navItems = [
   {
     id: 3,
     text: 'Technology',
-    href: '/content',
+    href: '/technology',
   },
   {
     id: 4,

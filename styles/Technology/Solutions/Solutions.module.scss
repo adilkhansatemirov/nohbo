@@ -1,0 +1,63 @@
+@import '../../Base/mixins.scss';
+
+.title {
+  @include container;
+
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: $primaryBlue;
+  padding: 80px 0;
+}
+
+.solutions {
+  background: $lightBlue;
+  padding: 55px 0;
+}
+
+.container {
+  @include container;
+
+  display: flex;
+  color: $primaryBlue;
+}
+
+.leftText {
+  width: 40%;
+  font-weight: 700;
+  font-size: 37px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid $primaryBlue;
+}
+
+.rightTextContainer {
+  width: 60%;
+  font-size: 25px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.topText {
+  padding: 65px 40px 65px 80px;
+  position: relative;
+  height: 50%;
+
+  &::after {
+    content: '';
+    height: 1px;
+    width: 57px;
+    background: $primaryBlue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.bottomText {
+  padding: 65px 40px 65px 80px;
+  height: 50%;
+}
