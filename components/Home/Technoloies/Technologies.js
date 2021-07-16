@@ -2,7 +2,7 @@ import TechnologiesStyles from 'styles/Home/Technologies/Technologies.module.scs
 
 function Technologies() {
   return (
-    <section className={TechnologiesStyles.technoloies}>
+    <section className={`${TechnologiesStyles.technoloies} wow slideInLeft`}>
       <div className={TechnologiesStyles.technoloies__container}>
         <div className={TechnologiesStyles.technoloies__textContainer}>
           <h3 className={TechnologiesStyles.technoloies__title}>Our Technology</h3>

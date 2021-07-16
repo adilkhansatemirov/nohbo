@@ -24,16 +24,16 @@
 }
 
 .navImageConainer {
-  width: 100px;
   position: relative;
 
-  @media (max-width: 600px) {
-    width: 50px;
+  img {
+    width: 115px;
   }
 }
 
 .navList {
   display: flex;
+  align-items: center;
 }
 
 .navItem {
@@ -45,5 +45,9 @@
 
   &:hover {
     color: $coralGreen;
+  }
+
+  a {
+    white-space: nowrap;
   }
 }

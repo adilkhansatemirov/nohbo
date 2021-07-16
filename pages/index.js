@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from 'components/Home/Header/Header';
 import Subheader from 'components/Home/Subheader/Subheader';
 import Technologies from 'components/Home/Technoloies/Technologies';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Products from 'components/Home/Products/Products';
 import Philosophy from 'components/Home/Philosophy/Philosophy';
 import Brand from 'components/Home/Brand/Brand';
@@ -22,7 +23,9 @@ export default function Home() {
       </Head>
       <Header />
       <Subheader />
-      <Technologies />
+      <ScrollAnimation animateIn="bounceInLeft" animateOnce>
+        <Technologies />
+      </ScrollAnimation>
       <Products />
       <Philosophy />
       <Brand />

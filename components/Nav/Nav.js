@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import NavStyles from 'styles/Nav/Nav.module.scss';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const navItems = [
@@ -65,13 +64,8 @@ function Nav() {
     <div className={`${NavStyles.nav} ${!isScrollOnTop ? NavStyles.nav__shrinked : ''}`}>
       <div className={NavStyles.nav__container}>
         <div className={NavStyles.navImageConainer}>
-          <Image
-            src="/images/nav-logo.png"
-            alt="Vercel Logo"
-            layout="fill"
-            objectFit="contain"
-            objectPosition="center"
-          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/nav-logo.png" alt="Vercel Logo" />
         </div>
         <ul className={NavStyles.navList}>
           {navItems.map((item) => (
