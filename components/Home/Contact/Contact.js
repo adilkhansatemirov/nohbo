@@ -1,14 +1,21 @@
+import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Home/Contact/Contact.module.scss';
 
 function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
-        <h3 className={styles.title}>Contact Us</h3>
-        <p className={styles.description}>
-          Looking to collaborate or curious about our technology? Feel free to drop us a note.
-        </p>
-        <button className={styles.button}>Message Us</button>
+        <ScrollAnimation animateIn="fadeIn" animateOnce>
+          <h3 className={styles.title}>Contact Us</h3>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOnce>
+          <p className={styles.description}>
+            Looking to collaborate or curious about our technology? Feel free to drop us a note.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOnce>
+          <button className={styles.button}>Message Us</button>
+        </ScrollAnimation>
       </div>
     </div>
   );

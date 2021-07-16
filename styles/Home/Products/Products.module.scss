@@ -37,8 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
-  padding-right: 50px;
+  padding: 100px 50px 100px 100px;
   color: $primaryBlue;
 }
 
@@ -110,4 +109,52 @@
 
 .border_left {
   border-left: 1px solid $primaryBlue;
+}
+
+.image__paper_container {
+  flex-basis: 50%;
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.paper_image_holder {
+  min-height: 400px;
+  max-height: 400px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__paper2,
+.image__paper3 {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 243px;
+  max-height: 243px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.image__paper1 {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 243px;
+  max-height: 243px;
+  position: relative;
+  top: -40px;
+}
+
+.image__paper2 {
+  top: 70px;
+  z-index: -1;
+}
+
+.image__paper3 {
+  top: 100px;
+  z-index: -2;
 }
