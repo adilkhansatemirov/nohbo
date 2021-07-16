@@ -1,3 +1,4 @@
+import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Press/List/List.module.scss';
 
 const list = [
@@ -105,19 +106,21 @@ function List() {
   return (
     <div className={styles.container}>
       {list.map((item) => (
-        <div className={styles.pressItem} key={item.id}>
-          <div className={styles.imageContainer}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className={styles.image} src={`/images/${item.imageSrc}`} alt="image" />
+        <ScrollAnimation animateIn="fadeIn" animateOnce key={item.id}>
+          <div className={styles.pressItem}>
+            <div className={styles.imageContainer}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className={styles.image} src={`/images/${item.imageSrc}`} alt="image" />
+            </div>
+            <div className={styles.main}>
+              <p className={styles.date}>{item.date}</p>
+              <h3 className={styles.title}>{item.title}</h3>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <button className={styles.button}>Read Release</button>
+              </a>
+            </div>
           </div>
-          <div className={styles.main}>
-            <p className={styles.date}>{item.date}</p>
-            <h3 className={styles.title}>{item.title}</h3>
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <button className={styles.button}>Read Release</button>
-            </a>
-          </div>
-        </div>
+        </ScrollAnimation>
       ))}
     </div>
   );
