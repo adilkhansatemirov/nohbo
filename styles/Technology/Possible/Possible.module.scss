@@ -53,6 +53,13 @@
   }
 }
 
+.lab1ImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: -1;
+}
+
 .lab2TextContainer {
   width: 500px;
   padding: 30px 55px;

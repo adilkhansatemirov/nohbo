@@ -1,3 +1,4 @@
+import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Technology/Provide/Provide.module.scss';
 
 const list = [
@@ -30,12 +31,14 @@ function Provide() {
       <div className={styles.container}>
         <h3 className={styles.title}>What Nohbo Can Provide</h3>
         <div className={styles.list}>
-          {list.map((item) => (
+          {list.map((item, index) => (
             <div className={styles.item} key={item.id}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`/images/${item.imageSrc}`} alt="item" />
-              <h4>{item.title}</h4>
-              <p>{item.description}</p>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce delay={index * 100}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={`/images/${item.imageSrc}`} alt="item" />
+                <h4>{item.title}</h4>
+                <p>{item.description}</p>
+              </ScrollAnimation>
             </div>
           ))}
         </div>

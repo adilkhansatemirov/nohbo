@@ -1,3 +1,4 @@
+import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Technology/Possible/Possible.module.scss';
 
 function Possible() {
@@ -5,8 +6,10 @@ function Possible() {
     <div className={styles.container}>
       <h3 className={styles.title}>How is This Possible?</h3>
       <div className={styles.lab1}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/lab4.png" alt="lab" />
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/lab4.png" alt="lab" />
+        </ScrollAnimation>
         <div className={styles.lab1TextContainer}>
           <h5>Anhydrous Chassis</h5>
           <p>
@@ -29,8 +32,10 @@ function Possible() {
             of the consumer good and personal care industry.
           </p>
         </div>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/lab5.png" alt="lab" />
+        <ScrollAnimation className={styles.lab1ImageContainer} animateIn="fadeInRight" animateOnce>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/lab5.png" alt="lab" />
+        </ScrollAnimation>
       </div>
     </div>
   );
