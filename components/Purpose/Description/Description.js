@@ -15,7 +15,7 @@ function Description() {
       <div className={styles.billion}>
         <ScrollAnimation animateIn="fadeInLeft" animateOnce>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className={styles.billionImage} src="/images/truck.png" alt="truck" />
+          <img className={styles.billionImage} src="/images/truck.gif" alt="truck" />
         </ScrollAnimation>
         <h4 className={styles.billionText}>
           <ScrollAnimation animateIn="fadeInRight" animateOnce>

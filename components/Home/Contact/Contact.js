@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Home/Contact/Contact.module.scss';
 
@@ -14,7 +15,11 @@ function Contact() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" animateOnce>
-          <button className={styles.button}>Message Us</button>
+          <Link href="/contact-us">
+            <a>
+              <button className={styles.button}>Message Us</button>
+            </a>
+          </Link>
         </ScrollAnimation>
       </div>
     </div>

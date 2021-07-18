@@ -1,6 +1,4 @@
 import Nav from 'components/Nav/Nav';
-// import Image from 'next/image';
-
 import HeaderStyles from 'styles/Home/Header/Header.module.scss';
 
 function Header() {

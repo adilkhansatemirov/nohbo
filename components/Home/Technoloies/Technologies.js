@@ -23,18 +23,22 @@ function Technologies() {
           <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className={styles.imageDrop1} src="/images/home_drop1.png" alt="home_drop1" />
+            <div className={styles.imageDrop1Shadow}></div>
           </ScrollAnimation>
           <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className={styles.imageDrop2} src="/images/home_drop2.png" alt="home_drop2" />
+            {/* <div className={styles.imageDrop2Shadow}></div> */}
           </ScrollAnimation>
           <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className={styles.imageDrop3} src="/images/home_drop3.png" alt="home_drop3" />
+            <div className={styles.imageDrop3Shadow}></div>
           </ScrollAnimation>
           <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className={styles.imageDrop4} src="/images/home_drop4.png" alt="home_drop4" />
+            <div className={styles.imageDrop4Shadow}></div>
           </ScrollAnimation>
         </div>
       </div>

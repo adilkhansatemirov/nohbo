@@ -64,8 +64,12 @@ function Nav() {
     <div className={`${NavStyles.nav} ${!isScrollOnTop ? NavStyles.nav__shrinked : ''}`}>
       <div className={NavStyles.nav__container}>
         <div className={NavStyles.navImageConainer}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/nav-logo.png" alt="Vercel Logo" />
+          <Link href="/">
+            <a>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/nav-logo.png" alt="Vercel Logo" />
+            </a>
+          </Link>
         </div>
         <ul className={NavStyles.navList}>
           {navItems.map((item) => (

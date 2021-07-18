@@ -13,7 +13,13 @@ function Description() {
         </div>
         <div className={styles.founderText}>
           <ScrollAnimation animateIn="fadeInRight" animateOnce>
-            <h3 className={styles.founderName}>Ben Stern</h3>
+            <h3 className={styles.founderName}>
+              Ben Stern
+              <a href="https://www.linkedin.com/in/benjamin-stern-746812a4/" target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
+              </a>
+            </h3>
             <h5 className={styles.founderPosition}>Founder</h5>
             <p className={styles.founderDescription}>
               Ben ideated Nohbo as a passion project after viewing a documentary in his biology class covering the ins

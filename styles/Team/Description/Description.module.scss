@@ -32,6 +32,14 @@
   font-weight: 700;
   font-size: 50px;
   margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 10px;
+    width: 30px;
+  }
 }
 
 .founderPosition {
@@ -93,4 +101,8 @@
 .supportersImage {
   max-height: 150px;
   max-width: 250px;
+
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }

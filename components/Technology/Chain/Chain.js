@@ -18,17 +18,17 @@ function Chain() {
               <img className={styles.image} src="/images/web.png" alt="web" />
               <div className={styles.lab1}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/chain1.png" alt="lab1" />
+                <img src="/images/chain1.gif" alt="lab1" />
                 <p>concoct</p>
               </div>
               <div className={styles.lab2}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/chain2.png" alt="lab2" />
+                <img src="/images/chain2.gif" alt="lab2" />
                 <p>manufacture</p>
               </div>
               <div className={styles.lab3}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/chain3.png" alt="lab3" />
+                <img src="/images/chain3.gif" alt="lab3" />
                 <p>package</p>
               </div>
               <div className={styles.lab4}>

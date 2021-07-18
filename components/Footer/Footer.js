@@ -35,7 +35,7 @@ const navItems = [
   {
     id: 7,
     text: 'Contact Us',
-    href: '/contact',
+    href: '/contact-us',
   },
 ];
 
@@ -56,17 +56,13 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.social}>
-          <a>
+          <a href="https://www.linkedin.com/company/nohbo/mycompany" target="_blank" rel="noopener noreferrer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/twitter.svg" alt="twitter" />
           </a>
-          <a>
+          <a href="https://twitter.com/nohbodrops" target="_blank" rel="noopener noreferrer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/linkedin.svg" alt="linkedin" />
-          </a>
-          <a>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/facebook.svg" alt="facebook" />
           </a>
         </div>
         <p className={styles.email}>

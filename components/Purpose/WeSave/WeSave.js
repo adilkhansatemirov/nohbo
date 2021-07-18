@@ -5,17 +5,17 @@ const list = [
   {
     id: 1,
     text: '15,590 pounds of water',
-    imageSrc: 'drops.png',
+    imageSrc: 'drops.gif',
   },
   {
     id: 2,
     text: '22,050 pounds of plastic',
-    imageSrc: 'bottles.png',
+    imageSrc: 'bottles.gif',
   },
   {
     id: 3,
     text: '220 pounds of preservative',
-    imageSrc: 'powder.png',
+    imageSrc: 'powder.gif',
   },
 ];
 

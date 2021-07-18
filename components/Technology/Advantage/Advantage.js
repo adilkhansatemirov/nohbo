@@ -8,7 +8,7 @@ function Advantage() {
         <div className={styles.items1}>
           <div className={styles.item}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/hands.png" alt="hands" />
+            <img src="/images/hands.gif" alt="hands" />
             <div className={styles.itemMain}>
               <h5>First-to-market</h5>
               <p>
@@ -19,7 +19,7 @@ function Advantage() {
           </div>
           <div className={styles.item}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/processor.png" alt="processor" />
+            <img src="/images/processor.gif" alt="processor" />
             <div className={styles.itemMain}>
               <h5>Robust IP portfolio</h5>
               <p>
@@ -33,7 +33,7 @@ function Advantage() {
         <div className={styles.items2}>
           <div className={styles.item}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/loop.png" alt="loop" />
+            <img src="/images/loop.gif" alt="loop" />
             <div className={styles.itemMain}>
               <h5>Obsessively dedicated R&D</h5>
               <p>
@@ -44,7 +44,7 @@ function Advantage() {
           </div>
           <div className={styles.item}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/tech.png" alt="tech" />
+            <img src="/images/tech.gif" alt="tech" />
             <div className={styles.itemMain}>
               <h5>Fully owned supply chain</h5>
               <p>

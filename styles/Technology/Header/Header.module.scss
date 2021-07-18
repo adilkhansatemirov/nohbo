@@ -1,7 +1,7 @@
 @import '../../Base/mixins.scss';
 
 .header {
-  padding: 180px 0 0px;
+  padding: 180px 0 0;
   background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
 }
 
@@ -9,6 +9,8 @@
   @include container;
 
   display: flex;
+  position: relative;
+  padding-bottom: 180px;
 }
 
 .main {
@@ -38,6 +40,109 @@
   color: white;
 }
 
+.imageContainer {
+  width: 528px;
+  height: 507px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .image {
-  width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.imageDrop1,
+.imageDrop2,
+.imageDrop3,
+.imageDrop4 {
+  position: absolute;
+
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+}
+
+.imageDrop1 {
+  top: 130px;
+  right: 80px;
+  width: 75px;
+}
+
+.imageDrop2 {
+  top: 320px;
+  right: 200px;
+  width: 110px;
+}
+
+.imageDrop3 {
+  top: 130px;
+  right: 370px;
+  width: 75px;
+}
+
+.imageDrop4 {
+  top: 0px;
+  right: 215px;
+  width: 100px;
+}
+
+.imageDrop1Shadow,
+// .imageDrop2Shadow,
+.imageDrop3Shadow,
+.imageDrop4Shadow {
+  position: absolute;
+  height: 2px;
+  animation: shadow 2s ease-in-out infinite;
+  width: 30px;
+}
+
+.imageDrop1Shadow {
+  top: 235px;
+  right: 100px;
+}
+
+// .imageDrop2Shadow {
+//   top: 320px;
+//   right: 200px;
+// }
+
+.imageDrop3Shadow {
+  top: 235px;
+  right: 390px;
+}
+
+.imageDrop4Shadow {
+  top: 100px;
+  right: 250px;
+}
+
+@keyframes float {
+  0% {
+    // box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    // box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-10px);
+  }
+  100% {
+    // box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    width: 30px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.8);
+  }
+  50% {
+    width: 25px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    width: 30px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.8);
+  }
 }
