@@ -56,11 +56,11 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.social}>
-          <a href="https://www.linkedin.com/company/nohbo/mycompany" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/nohbodrops" target="_blank" rel="noopener noreferrer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/twitter.svg" alt="twitter" />
           </a>
-          <a href="https://twitter.com/nohbodrops" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/nohbo/mycompany" target="_blank" rel="noopener noreferrer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/linkedin.svg" alt="linkedin" />
           </a>
