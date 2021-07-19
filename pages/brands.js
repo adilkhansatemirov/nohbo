@@ -16,7 +16,7 @@ function Brands({ toast }) {
       <Nav />
       <Header />
       <Description />
-      <Subscribe />
+      <Subscribe toast={toast}/>
       <Footer />
     </div>
   );

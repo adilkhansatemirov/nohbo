@@ -7,7 +7,7 @@ import Subscribe from 'components/Brands/Subscribe/Subscribe';
 import Contact from 'components/Home/Contact/Contact';
 import Footer from 'components/Footer/Footer';
 
-function Purpose() {
+function Purpose({ toast }) {
   return (
     <div>
       <Head>
@@ -19,7 +19,7 @@ function Purpose() {
       <Header />
       <Description />
       <WeSave />
-      <Subscribe />
+      <Subscribe toast={toast}/>
       <Contact />
       <Footer />
     </div>
