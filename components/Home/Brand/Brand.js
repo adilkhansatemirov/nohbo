@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Home/Brand/Brand.module.scss';
 
@@ -19,7 +20,11 @@ function Brand() {
             and feel-good ingredients that are plant-based, vegan, cruelty-free, non-toxic, biodegradable, and ethically
             sourced.
           </p>
-          <button className={styles.button}>Check It Out</button>
+          <Link href="/brands">
+            <a>
+              <button className={styles.button}>Check It Out</button>
+            </a>
+          </Link>
         </ScrollAnimation>
       </div>
     </section>

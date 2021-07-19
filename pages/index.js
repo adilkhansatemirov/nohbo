@@ -6,7 +6,7 @@ import Products from 'components/Home/Products/Products';
 import Philosophy from 'components/Home/Philosophy/Philosophy';
 import Brand from 'components/Home/Brand/Brand';
 import Buzz from 'components/Home/Buzz/Buzz';
-import Subscribe from 'components/Home/Subscribe/Subscribe';
+import Subscribe from 'components/Brands/Subscribe/Subscribe';
 import Contact from 'components/Home/Contact/Contact';
 import Footer from 'components/Footer/Footer';
 

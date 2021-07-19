@@ -29,22 +29,26 @@ function Subscribe({ toast }) {
   });
 
   function onSubmit(data) {
-    // setSubmitting(true);
-    // axios
-    //   .post('https://nonbo-api.herokuapp.com/mail', data)
-    //   .then(() => {
-    //     console.log('posted');
-    //     setSubmitting(false);
-    //     toast.success('You will now receive emails! 🚀');
-    //     reset();
-    //   })
-    //   .catch(() => {
-    //     console.log('error');
-    //     setSubmitting(false);
-    //     toast.error('Something went wrong 😶');
-    //     reset();
-    //   });
-    console.log(data);
+    setSubmitting(true);
+    axios
+      .post('https://nonbo-api.herokuapp.com/mail', {
+        firstName: data.firstName,
+        lastName: data.lastName,
+        email: data.email,
+        message: 'Hello, I would like to subscribe to your news letter',
+      })
+      .then(() => {
+        console.log('posted');
+        setSubmitting(false);
+        toast.success('You will now receive emails! 🚀');
+        reset();
+      })
+      .catch(() => {
+        console.log('error');
+        setSubmitting(false);
+        toast.error('Something went wrong 😶');
+        reset();
+      });
   }
 
   return (

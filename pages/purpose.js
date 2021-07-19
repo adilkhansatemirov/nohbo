@@ -3,7 +3,7 @@ import Nav from 'components/Nav/Nav';
 import Header from 'components/Purpose/Header/Header';
 import Description from 'components/Purpose/Description/Description';
 import WeSave from 'components/Purpose/WeSave/WeSave';
-import Subscribe from 'components/Home/Subscribe/Subscribe';
+import Subscribe from 'components/Brands/Subscribe/Subscribe';
 import Contact from 'components/Home/Contact/Contact';
 import Footer from 'components/Footer/Footer';
 
