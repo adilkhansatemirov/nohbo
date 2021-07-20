@@ -3,21 +3,11 @@
 
 .philosophy {
   background: $lightBlue;
-  padding-top: 170px;
+  padding-top: 140px;
   padding-bottom: 120px;
   color: $primaryBlue;
   text-align: center;
   position: relative;
-
-  &::after {
-    content: '';
-    width: 50%;
-    height: 60px;
-    background: white;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
 }
 
 .container {

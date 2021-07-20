@@ -65,18 +65,21 @@
   top: 295px;
   right: 190px;
   width: 110px;
+  animation-delay: 0.2s;
 }
 
 .imageDrop3 {
   top: 122px;
   right: 355px;
   width: 75px;
+  animation-delay: 0.4s;
 }
 
 .imageDrop4 {
   top: -10px;
   right: 205px;
   width: 100px;
+  animation-delay: 0.6s;
 }
 
 .imageDrop1Shadow,
@@ -87,6 +90,7 @@
   height: 2px;
   animation: shadow 2s ease-in-out infinite;
   width: 30px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
 .imageDrop1Shadow {
@@ -102,11 +106,13 @@
 .imageDrop3Shadow {
   top: 225px;
   right: 375px;
+  animation-delay: 0.4s;
 }
 
 .imageDrop4Shadow {
   top: 95px;
   right: 240px;
+  animation-delay: 0.6s;
 }
 
 @keyframes float {
