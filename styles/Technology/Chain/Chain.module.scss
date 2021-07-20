@@ -1,7 +1,7 @@
 @import '../../Base/mixins.scss';
 
 .chain {
-  padding: 100px 0;
+  padding: 150px 0;
   color: $primaryBlue;
 }
 
@@ -65,8 +65,8 @@
 .imageContainer {
   min-height: 285px;
   max-height: 285px;
-  min-width: 810px;
-  max-width: 810px;
+  min-width: 625px;
+  max-width: 625px;
   position: relative;
   margin-left: 50px;
 }
@@ -95,22 +95,22 @@
   p {
     margin-left: 10px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 .lab1 {
-  top: 10px;
+  top: 5px;
   left: 0;
 }
 
 .lab2 {
-  top: 90px;
+  top: 65px;
   left: 0;
 }
 
 .lab3 {
-  bottom: 75px;
+  bottom: 120px;
   left: 0;
 }
 
@@ -121,26 +121,26 @@
 .lab4,
 .lab5 {
   img {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
   }
 
   div {
-    margin-left: 22px;
+    margin-left: 10px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 16px;
     margin: 5px 0;
   }
 }
 
 .lab4 {
-  top: 40px;
+  top: 25px;
   right: 0;
 }
 
 .lab5 {
-  bottom: 40px;
+  bottom: 80px;
   right: 0;
 }
