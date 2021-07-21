@@ -15,6 +15,7 @@
 
 .title {
   @include title;
+  @include sectionTitle;
 
   color: $primaryBlue;
 }
@@ -23,6 +24,7 @@
   margin-top: 25px;
   font-size: 20px;
   color: $primaryBlue;
+  text-align: center;
 }
 
 .button {
