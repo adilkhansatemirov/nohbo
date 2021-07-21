@@ -3,6 +3,14 @@
 @mixin container {
   width: 85%;
   margin: 0 auto;
+
+  @media(max-width: 900px) {
+    width: 90%;
+  }
+
+  @media(max-width: 900px) {
+    width: 95%;
+  }
 }
 
 @mixin title {
