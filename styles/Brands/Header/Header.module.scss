@@ -3,6 +3,10 @@
 .header {
   padding: 200px 0;
   background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
+
+  @media (max-width: 700px) {
+    padding: 130px 0 100px;
+  }
 }
 
 .title {
