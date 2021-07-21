@@ -52,7 +52,7 @@ function Form({ toast }) {
   return (
     <form className={styles.form__container} onSubmit={handleSubmit(onSubmit)}>
       <div className={styles.inputLine}>
-        <div className={styles.inputContainer}>
+        <div className={`${styles.inputContainer} ${styles.inputNameContainer}`}>
           <input
             {...register('firstName')}
             style={{ marginRight: '15px' }}

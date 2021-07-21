@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import NavStyles from 'styles/Nav/Nav.module.scss';
+import styles from 'styles/Nav/Nav.module.scss';
 import Link from 'next/link';
 
 const navItems = [
@@ -42,6 +42,7 @@ const navItems = [
 
 function Nav() {
   const [isScrollOnTop, setIsScrollOnTop] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,9 +62,9 @@ function Nav() {
   }, [isScrollOnTop]);
 
   return (
-    <div className={`${NavStyles.nav} ${!isScrollOnTop ? NavStyles.nav__shrinked : ''}`}>
-      <div className={NavStyles.nav__container}>
-        <div className={NavStyles.navImageConainer}>
+    <div className={`${styles.nav} ${!isScrollOnTop ? styles.nav__shrinked : ''}`}>
+      <div className={styles.nav__container}>
+        <div className={styles.navImageConainer}>
           <Link href="/">
             <a>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -71,15 +72,32 @@ function Nav() {
             </a>
           </Link>
         </div>
-        <ul className={NavStyles.navList}>
+        <ul className={styles.navList}>
           {navItems.map((item) => (
-            <li className={NavStyles.navItem} key={item.id}>
+            <li className={styles.navItem} key={item.id}>
               <Link href={item.href}>
                 <a>{item.text}</a>
               </Link>
             </li>
           ))}
         </ul>
+        <button className={styles.hamburger} onClick={() => setIsMobileMenuOpen(true)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div className={`${styles.nav__mobileMenu} ${isMobileMenuOpen && styles.nav__mobileMenuOpen}`}>
+          <ul>
+            {navItems.map((item) => (
+              <li className={styles.navItemMobile} key={item.id}>
+                <Link href={item.href}>
+                  <a>{item.text}</a>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <button className={styles.closeButton} onClick={() => setIsMobileMenuOpen(false)}></button>
+        </div>
       </div>
     </div>
   );

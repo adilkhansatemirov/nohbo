@@ -4,11 +4,20 @@
   flex-basis: 50%;
   padding-top: 40px;
   padding-left: 70px;
+
+  @media (max-width: 800px) {
+    padding-left: 0;
+  }
 }
 
 .inputLine {
   display: flex;
   margin-bottom: 40px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 }
 
 .inputContainer {
@@ -32,6 +41,16 @@
   &:focus-visible {
     outline: none;
     border: 1px solid $primaryBlue;
+  }
+
+  @media (max-width: 800px) {
+    margin-right: 0 !important;
+  }
+}
+
+.inputNameContainer {
+  @media (max-width: 800px) {
+    margin-bottom: 20px;
   }
 }
 
