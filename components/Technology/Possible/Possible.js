@@ -6,7 +6,7 @@ function Possible() {
     <div className={styles.container}>
       <h3 className={styles.title}>How is This Possible?</h3>
       <div className={styles.lab1}>
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce>
+        <ScrollAnimation className={styles.test} animateIn="fadeInLeft" animateOnce>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/images/lab4.png" alt="lab" />
         </ScrollAnimation>

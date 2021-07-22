@@ -163,3 +163,10 @@ img,
 button {
   display: block;
 }
+
+.animated {
+  @media (max-width: 600px) {
+    animation-duration: 0s !important;
+    opacity: 1 !important;
+  }
+}
