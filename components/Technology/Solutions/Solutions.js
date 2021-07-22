@@ -20,9 +20,9 @@ function Solutions() {
             </div>
             <div className={styles.bottomText}>
               <ScrollAnimation animateIn="fadeInRight" animateOnce>
-                Utilizing earth derived compounds and novel green chemistry practices, we’ve figured out how to safely
-                and efficaciously <span className={styles.bold}>encapsulate (pod) personal care products</span> in water
-                soluble film. 
+                Utilizing  earth  derived  compounds  and  novel  green  chemistry practices,  we’ve  figured  out  how  to  safely
+                and  efficaciously  <span className={styles.bold}>encapsulate  (pod)  personal  care  products</span>  in  water
+                 soluble  film. 
               </ScrollAnimation>
             </div>
           </div>

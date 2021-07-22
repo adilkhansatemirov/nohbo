@@ -3,6 +3,7 @@
 .header {
   padding: 180px 0 0;
   background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
+  overflow: hidden;
 
   @media (max-width: 600px) {
     padding-top: 120px;
