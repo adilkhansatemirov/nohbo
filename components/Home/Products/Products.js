@@ -31,7 +31,7 @@ function Products() {
           </ScrollAnimation>
         </div>
       </div>
-      <div className={styles.item}>
+      <div className={`${styles.item} ${styles.itemTwo}`}>
         <div className={styles.text__container}>
           <div className={`${styles.right_lines_top} ${styles.border_left}`}></div>
           <ScrollAnimation animateIn="fadeInLeft" animateOnce>

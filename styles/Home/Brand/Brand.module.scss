@@ -6,6 +6,10 @@
 
   display: flex;
   padding: 100px 0;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 }
 
 .image__container {
@@ -17,6 +21,10 @@
 
 .image {
   width: 80%;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 }
 
 .main {
@@ -26,12 +34,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: 700px) {
+    padding-left: 0;
+  }
 }
 
 .title {
   color: $primaryBlue;
   font-size: 50px;
   font-weight: 700;
+
+  @media (max-width: 700px) {
+    margin-top: 20px;
+  }
 }
 
 .description {
@@ -39,6 +55,10 @@
   color: $primaryBlue;
   font-size: 20px;
   line-height: 35px;
+
+  @media (max-width: 700px) {
+    margin-top: 20px;
+  }
 }
 
 .button {
