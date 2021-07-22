@@ -20,6 +20,10 @@
 
   display: flex;
   color: $primaryBlue;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 .leftText {
@@ -30,11 +34,20 @@
   display: flex;
   align-items: center;
   border-right: 1px solid $primaryBlue;
+
+  @media (max-width: 900px) {
+    border-right: none;
+  }
 }
 
 .rightTextContainer {
   width: 60%;
   font-size: 25px;
+
+  @media (max-width: 900px) {
+    width: 100%;
+    border-left: 1px solid $primaryBlue;
+  }
 }
 
 .bold {
@@ -54,8 +67,18 @@
     left: 0;
     bottom: 0;
   }
+
+  @media (max-width: 900px) {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
 }
 
 .bottomText {
   padding: 30px 40px 30px 80px;
+
+  @media (max-width: 900px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

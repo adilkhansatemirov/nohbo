@@ -10,6 +10,11 @@
 .dropsContainer {
   display: flex;
   border-bottom: 1px solid $primaryBlue;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    border-bottom: none;
+  }
 }
 
 .dropsImagesContainer {
@@ -19,6 +24,14 @@
   border-right: 1px solid $primaryBlue;
   padding-top: 40px;
   padding-bottom: 80px;
+
+  @media (max-width: 1200px) {
+    border-right: none;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 0;
+  }
 }
 
 .dropsTextContainer {
@@ -36,6 +49,17 @@
     font-size: 25px;
     line-height: 35px;
   }
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $primaryBlue;
+
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
 .dropsImagesItem {
@@ -43,10 +67,24 @@
     max-width: 300px;
     max-height: 250px;
   }
+
+  @media (max-width: 1200px) {
+    img {
+      margin: 0 auto;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
 }
 
 .slipsContainer {
   display: flex;
+
+  @media (max-width: 1200px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .slipsTextContainer {
@@ -68,6 +106,12 @@
     font-size: 25px;
     line-height: 35px;
     margin-top: 30px;
+  }
+
+  @media (max-width: 1200px) {
+    border-right: none;
+    width: 100%;
+    padding-left: 0;
   }
 }
 

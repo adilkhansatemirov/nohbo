@@ -3,6 +3,10 @@
 .header {
   padding: 180px 0 0;
   background: radial-gradient(78.11% 385.9% at 26.13% 25.18%, #bbe5e5 0%, #a29dfb 44.79%, #ebdb92 100%);
+
+  @media (max-width: 600px) {
+    padding-top: 120px;
+  }
 }
 
 .container {
@@ -11,10 +15,18 @@
   display: flex;
   position: relative;
   padding-bottom: 180px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 530px;
+  }
 }
 
 .main {
   width: 50%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .upperTitle {
@@ -22,6 +34,10 @@
   color: white;
   font-weight: 500;
   font-size: 25px;
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 .title {
@@ -30,6 +46,10 @@
   font-size: 64px;
   line-height: 79px;
   color: $primaryBlue;
+
+  @media (max-width: 600px) {
+    font-size: 50px;
+  }
 }
 
 .subTitle {
@@ -38,6 +58,10 @@
   font-size: 25px;
   line-height: 37px;
   color: white;
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 .imageContainer {
@@ -46,6 +70,15 @@
   position: absolute;
   bottom: 0;
   right: 0;
+
+  @media (max-width: 1200px) {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  @media (max-width: 600px) {
+    width: 400px;
+  }
 }
 
 .image {
@@ -67,6 +100,12 @@
   top: 130px;
   right: 80px;
   width: 75px;
+
+  @media (max-width: 600px) {
+    top: 155px;
+    right: 55px;
+    width: 65px;
+  }
 }
 
 .imageDrop2 {
@@ -74,6 +113,12 @@
   right: 200px;
   width: 110px;
   animation-delay: 0.2s;
+
+  @media (max-width: 600px) {
+    top: 320px;
+    right: 150px;
+    width: 90px;
+  }
 }
 
 .imageDrop3 {
@@ -81,6 +126,12 @@
   right: 370px;
   width: 75px;
   animation-delay: 0.4s;
+
+  @media (max-width: 600px) {
+    top: 150px;
+    right: 275px;
+    width: 65px;
+  }
 }
 
 .imageDrop4 {
@@ -88,6 +139,12 @@
   right: 215px;
   width: 100px;
   animation-delay: 0.6s;
+
+  @media (max-width: 600px) {
+    top: 15px;
+    right: 160px;
+    width: 85px;
+  }
 }
 
 .imageDrop1Shadow,
@@ -104,6 +161,10 @@
 .imageDrop1Shadow {
   top: 235px;
   right: 100px;
+
+  @media (max-width: 600px) {
+    right: 72px;
+  }
 }
 
 // .imageDrop2Shadow {
@@ -115,12 +176,20 @@
   top: 235px;
   right: 390px;
   animation-delay: 0.4s;
+
+  @media (max-width: 600px) {
+    right: 294px;
+  }
 }
 
 .imageDrop4Shadow {
   top: 100px;
   right: 250px;
   animation-delay: 0.6s;
+
+  @media (max-width: 600px) {
+    right: 190px;
+  }
 }
 
 @keyframes float {
