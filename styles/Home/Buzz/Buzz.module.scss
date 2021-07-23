@@ -1,5 +1,4 @@
 @import '../../Base/mixins.scss';
-@import '../../Base/variables.scss';
 
 .buzz {
   @include container;
@@ -8,10 +7,7 @@
 }
 
 .title {
-  @include title;
-
-  color: $primaryBlue;
-  text-align: center;
+  @include sectionTitle;
 }
 
 .image {
