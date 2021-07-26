@@ -68,10 +68,7 @@ function Footer() {
         <p className={styles.email}>
           <a>info@nohbo.com</a>
         </p>
-        <p className={styles.phone}>
-          <a>+1 (321) 345-5319</a>
-        </p>
-        <p className={styles.address}>1581 Robert J Conlan Blvd NE., Suite 100 Palm Bay, FL 32905</p>
+        <p className={styles.address}>1581 Robert J Conlan Blvd NE., Suite 100, Palm Bay, FL 32905</p>
         <div className={styles.copyright}>
           <p>© 2021 Nohbo</p>
           <p>Patented & Patent Pending | US + Worldwide</p>
