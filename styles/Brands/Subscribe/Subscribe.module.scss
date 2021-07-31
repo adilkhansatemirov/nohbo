@@ -3,6 +3,10 @@
 .subscribe {
   background: $lightBlue;
   padding: 100px 0;
+
+  @media (max-width: 700px) {
+    padding: 40px 0 10px;
+  }
 }
 
 .container {
@@ -22,6 +26,7 @@
 
   @media (max-width: 700px) {
     width: 100%;
+    margin: 30px 0;
   }
 }
 
