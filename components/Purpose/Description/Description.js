@@ -7,7 +7,7 @@ function Description() {
       <h3 className={styles.mainText}>
         <ScrollAnimation animateIn="fadeInUp" animateOnce>
           To minimize plastic consumption and foster a sustainable and environmentally-conscious culture with disruptive
-          single-use products packaged in water-soluble film.
+          single-use products packaged in water-soluble film
         </ScrollAnimation>
       </h3>
       <div className={styles.billion}>
