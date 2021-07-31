@@ -10,6 +10,30 @@
   @include sectionTitle;
 }
 
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
 .image {
-  width: 100%;
+  max-width: 250px;
+  max-height: 100px;
+
+  @media (max-width: 600px) {
+    max-width: 140px;
+    max-height: 65px;
+  }
+
+  @media (max-width: 400px) {
+    max-width: 120px;
+    max-height: 55px;
+  }
 }
