@@ -10,10 +10,9 @@
 }
 
 .title {
+  @include pageTitle;
+
   color: white;
-  font-size: 64px;
-  text-align: center;
-  font-weight: 500;
 }
 
 .container {

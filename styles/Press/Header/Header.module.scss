@@ -6,10 +6,9 @@
 }
 
 .title {
+  @include pageTitle;
+
   color: $primaryBlue;
-  font-size: 64px;
-  text-align: center;
-  font-weight: 500;
 }
 
 .container {
