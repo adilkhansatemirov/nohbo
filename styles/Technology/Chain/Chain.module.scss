@@ -29,6 +29,11 @@
   height: 485px;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 .leftContainer {
@@ -60,9 +65,11 @@
   }
 
   @media (max-width: 700px) {
-    max-width: 250px;
-    width: 250px;
+    border-right: none;
+    max-width: 100%;
+    width: 100%;
     padding-right: 15px;
+    margin-bottom: 40px;
 
     p {
       font-size: 20px;
@@ -73,6 +80,7 @@
     }
 
     h5 {
+      margin-top: 10px;
       font-size: 20px;
     }
   }

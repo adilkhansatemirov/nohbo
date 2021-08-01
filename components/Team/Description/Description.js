@@ -20,7 +20,7 @@ function Description() {
                 <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
               </a>
             </h3>
-            <h5 className={styles.founderPosition}>Founder</h5>
+            <h5 className={styles.founderPosition}>Founder & CEO</h5>
             <p className={styles.founderDescription}>
               Ben ideated Nohbo as a passion project after viewing a documentary in his biology class covering the ins
               and outs of the plastic bottling industry. He was horrified to see a plethora of waste flooding landfills
