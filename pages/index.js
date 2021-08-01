@@ -13,7 +13,6 @@ import Footer from 'components/Footer/Footer';
 import styles from '../styles/Home.module.scss';
 
 export default function Home({ toast }) {
-  console.log('test new scope');
   return (
     <div style={{ overflow: 'hidden' }} className={styles.container}>
       <Head>

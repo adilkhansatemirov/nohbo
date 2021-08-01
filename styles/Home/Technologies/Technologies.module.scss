@@ -20,6 +20,10 @@
     @media (max-width: 900px) {
       padding: 40px 0;
     }
+
+    @media (max-width: 600px) {
+      padding: 10px 0 40px;
+    }
   }
 
   &__title {
@@ -30,6 +34,10 @@
     @media (max-width: 900px) {
       font-size: 45px;
     }
+
+    @media (max-width: 600px) {
+      font-size: 35px;
+    }
   }
 
   &__description {
@@ -37,6 +45,10 @@
     font-size: 25px;
     line-height: 37px;
     color: $primaryBlue;
+
+    @media (max-width: 600px) {
+      font-size: 20px;
+    }
   }
 
   &__image {
