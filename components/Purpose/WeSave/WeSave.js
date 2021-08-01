@@ -27,13 +27,13 @@ function WeSave() {
           <h3 className={styles.title}>Per every 1 million Drops used, we save…</h3>
           <div className={styles.list}>
             {list.map((item, index) => (
-              <div className={styles.item} key={item.id}>
-                <ScrollAnimation animateIn="fadeInUp" animateOnce delay={index * 200}>
+              <ScrollAnimation key={item.id} animateIn="fadeInUp" animateOnce delay={index * 200}>
+                <div className={styles.item}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img className={styles.itemImage} src={`/images/${item.imageSrc}`} alt="item" />
                   <h4 className={styles.itemText}>{item.text}</h4>
-                </ScrollAnimation>
-              </div>
+                </div>
+              </ScrollAnimation>
             ))}
           </div>
         </div>
