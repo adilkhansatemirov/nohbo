@@ -7,7 +7,7 @@ function DropLine() {
       <h3 className={styles.subtitle}>
         Looking to collaborate or curious to learn more?
         <br />
-        Send us a note.
+        Send us a note
       </h3>
       <div className={styles.contact}>
         <p className={styles.email}>info@nohbo.com</p>
