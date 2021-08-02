@@ -20,7 +20,7 @@ function Brand() {
             and feel-good ingredients that are plant-based, vegan, cruelty-free, non-toxic, biodegradable, and ethically
             sourced.
           </p>
-          <Link href="/brands">
+          <Link ="sunrisesession.com">
             <a>
               <button className={styles.button}>Check It Out</button>
             </a>
