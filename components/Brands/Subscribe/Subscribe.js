@@ -91,7 +91,7 @@ function Subscribe({ toast }) {
           </div>
           <div className={styles.inputLine}>
             <button disabled={submitting} type="submit" className={styles.button}>
-              Sing up
+              Sign Up
             </button>
           </div>
         </form>
