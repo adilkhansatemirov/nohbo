@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <h1 className={styles.title}>New Brand Coming Soon</h1>
+        <h1 className={styles.title}>Our Brands</h1>
       </div>
     </div>
   );
