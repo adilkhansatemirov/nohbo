@@ -12,7 +12,7 @@ function Advantage() {
             <div className={styles.itemMain}>
               <h5>First-to-market</h5>
               <p>
-                World’s first liquid single-use personal care product that exists without the need for any outer plastic
+                The world’s first liquid, single-use personal care product that exists without the need for any outer plastic
                 packaging
               </p>
             </div>
