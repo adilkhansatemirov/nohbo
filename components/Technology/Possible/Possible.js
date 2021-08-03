@@ -23,7 +23,7 @@ function Possible() {
       </div>
       <div className={styles.lab2}>
         <div className={styles.lab2TextContainer}>
-          <h5>Water Soluble Film i.e., “The Wrap”</h5>
+          <h5>Water Soluble Film, “The Wrap”</h5>
           <p>
             Water soluble films are core and center to what we do. They act like a fish net in our formulations;
             everything inside “the fish” gets trapped in our polymer film “the net” due to its large molecular weight.

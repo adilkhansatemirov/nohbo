@@ -14,7 +14,7 @@ function Description() {
       <div className={styles.sunriseContainer}>
         <h3 className={styles.sunriseText}>
           <ScrollAnimation animateIn="fadeInLeft" animateOnce>
-            Sunrise Session is a single-use plastic waste-free self-care innovation brand, owned and operated by Nohbo.
+            Sunrise Session is a single-use, plastic, waste-free self-care innovation brand, owned and operated by Nohbo.
           </ScrollAnimation>
         </h3>
         <div className={styles.sunriseImageContainer}>
