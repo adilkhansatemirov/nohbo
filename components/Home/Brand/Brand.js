@@ -13,7 +13,7 @@ function Brand() {
       </div>
       <div className={styles.main}>
         <ScrollAnimation animateIn="fadeInUp" animateOnce>
-          <h3 className={styles.title}>Our Brand – Try Our Drops</h3>
+          <h3 className={styles.title}>Our Brands – Try Our Drops</h3>
           <p className={styles.description}>
             Sunrise Session is a single-use, plastic waste-free self-care innovation brand owned and operated by Nohbo.
             For the conscious decelerator with an on-the-go lifestyle, Sunrise Session offers water-seeking concentrates
