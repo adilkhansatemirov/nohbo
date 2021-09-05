@@ -19,7 +19,7 @@ function Chain() {
               <div className={styles.lab1}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/images/chain1.gif" alt="lab1" />
-                <p>research</p>
+                <p>Research</p>
               </div>
               <div className={styles.lab2}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
