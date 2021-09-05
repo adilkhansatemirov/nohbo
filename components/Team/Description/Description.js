@@ -40,14 +40,14 @@ function Description() {
         <h3 className={styles.supportersTitle}>Our Supporters</h3>
             
         <div className={styles.supportersImageContainer}>
-            <a href="https://www.linkedin.com/in/benjamin-stern-746812a4/" target="_blank" rel="noopener noreferrer">
+            <a href="https://materialimpact.com/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
+                <img src="/images/supporter1.png" alt="linkedin-blue" />
             </a>
 
-            <a href="https://www.linkedin.com/in/benjamin-stern-746812a4/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.safermade.net/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
+                <img src="/images/supporter2.png" alt="linkedin-blue" />
             </a>
 
         </div>
