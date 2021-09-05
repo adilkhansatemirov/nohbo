@@ -1,6 +1,6 @@
 import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Brands/Description/Description.module.scss';
-import styles from 'styles/styles/Carousel/NohboCarousel.css';
+import styles from 'styles/Carousel/NohboCarousel.css';
 
 function Description() {
   return (
