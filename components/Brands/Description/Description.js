@@ -27,7 +27,7 @@ function Description() {
               </a>
             
               {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />
+            {/*<img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />*/}
             
           </ScrollAnimation>
         </div>
