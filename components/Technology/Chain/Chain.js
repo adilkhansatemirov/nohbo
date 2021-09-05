@@ -10,7 +10,7 @@ function Chain() {
           <div className={styles.leftContainer}>
             <p>State-of-the-art in-house</p>
             <h4>12,000 sq. ft.</h4>
-            <h5>factory & laboratory in-house</h5>
+            <h5>factory & laboratory</h5>
           </div>
           <div className={styles.rightContainer}>
             <div className={styles.imageContainer}>
@@ -19,7 +19,7 @@ function Chain() {
               <div className={styles.lab1}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/images/chain1.gif" alt="lab1" />
-                <p>Research</p>
+                <p>research</p>
               </div>
               <div className={styles.lab2}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -51,7 +51,7 @@ function Chain() {
                     <span className={styles.bold}>Slip</span> production cap is
                   </p>
                   <p>
-                    <span className={styles.bold}>{'>'}10 million</span> units per month
+                    <span className={styles.bold}>{'>'}120 million</span> units per month
                   </p>
                 </div>
               </div>
