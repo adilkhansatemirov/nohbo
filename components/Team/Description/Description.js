@@ -44,7 +44,7 @@ function Description() {
               <ScrollAnimation animateIn="fadeIn" animateOnce delay={item * 100}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <a href="https://materialimpact.com/" target="_blank" rel="noopener noreferrer">                
-                <img className={styles.supportersImage} src={`/images/supporter${item}.png`} alt="supporter" />                
+                <image className={styles.supportersImage} src={`/images/supporter${item}.png`} alt="supporter" />                
                 </a>
               </ScrollAnimation>
             </div>
