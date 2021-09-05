@@ -38,13 +38,14 @@ function Description() {
       </div>
       <div className={styles.supportersContainer}>
         <h3 className={styles.supportersTitle}>Our Supporters</h3>
-
         <div className={styles.supportersImageContainer}>
           {[1, 2, 3, 4].map((item) => (
             <div className={styles.supporterImageContainer} key={item}>
               <ScrollAnimation animateIn="fadeIn" animateOnce delay={item * 100}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
+                <a href="https://www.linkedin.com/in/benjamin-stern-746812a4/" target="_blank" rel="noopener noreferrer">                
                 <img className={styles.supportersImage} src={`/images/supporter1.png`} alt="supporter" />                
+                </a>
               </ScrollAnimation>
             </div>
           ))}
