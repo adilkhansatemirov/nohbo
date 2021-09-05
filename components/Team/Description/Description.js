@@ -44,6 +44,12 @@ function Description() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
             </a>
+
+            <a href="https://www.linkedin.com/in/benjamin-stern-746812a4/" target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/linkedin-blue.svg" alt="linkedin-blue" />
+            </a>
+
         </div>
 
         <div className={styles.supportersImageContainer}>
