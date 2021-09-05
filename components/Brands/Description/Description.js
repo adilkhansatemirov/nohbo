@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import React from "react";
+import { UncontrolledCarousel, Row, Col } from "reactstrap";
 import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Brands/Description/Description.module.scss';
 
@@ -34,8 +35,7 @@ function Description() {
 
 
 
-import React from "react";
-import { UncontrolledCarousel, Row, Col } from "reactstrap";
+
 
 const items = [
   {
