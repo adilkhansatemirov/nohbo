@@ -39,8 +39,9 @@ function Description() {
       <div className={styles.supportersContainer}>
         <h3 className={styles.supportersTitle}>Our Supporters</h3>            
         <div className={styles.supportersImageContainer}>
+          {[1, 2, 3, 4].map(=> (
           <ScrollAnimation animateIn="fadeIn" animateOnce>  
-          
+          <div className={styles.supporterImageContainer}>
           <a href="https://materialimpact.com/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className={styles.supportersImage} src="/images/supporter1.png" alt="supporter" />
@@ -51,6 +52,8 @@ function Description() {
                 <img className={styles.supportersImage} src="/images/supporter2.png" alt="supporter" />
             </a>
             </ScrollAnimation>
+        </div>
+        ))}
         </div>
 
         <div className={styles.supportersImageContainer}>
