@@ -39,21 +39,21 @@ function Description() {
 
 const items = [
   {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    src: require("/images/sunrise.png"),
     altText: "Slide 1",
     caption: "",
     header: "",
     key: "1",
   },
   {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    src: require("/images/sunrise.png"),
     altText: "Slide 2",
     caption: "",
     header: "",
     key: "2",
   },
   {
-    src: require("assets/img/theme/img-3-1200x1000.jpg"),
+    src: require("/images/sunrise.png"),
     altText: "Slide 3",
     caption: "",
     header: "",
