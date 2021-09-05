@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ScrollAnimation from 'react-animate-on-scroll';
 import styles from 'styles/Brands/Description/Description.module.scss';
 
