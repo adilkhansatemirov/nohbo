@@ -20,7 +20,7 @@ function Description() {
         <div className={styles.sunriseImageContainer}>
           <ScrollAnimation animateIn="fadeInRight" animateOnce>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />
+            <a href="https://sunrisesession.com/" target="_blank"><img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" /><a/>
           </ScrollAnimation>
         </div>
       </div>
