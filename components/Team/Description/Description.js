@@ -42,12 +42,12 @@ function Description() {
         <div className={styles.supportersImageContainer}>
             <a href="https://materialimpact.com/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/supporter1.png" alt="linkedin-blue" />
+                <img className={styles.supportersImage} src="/images/supporter1.png" alt="supporter" />
             </a>
 
             <a href="https://www.safermade.net/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/supporter2.png" alt="linkedin-blue" />
+                <img className={styles.supportersImage} src="/images/supporter2.png" alt="supporter" />
             </a>
 
         </div>
