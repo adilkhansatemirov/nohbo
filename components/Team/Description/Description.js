@@ -43,7 +43,7 @@ function Description() {
             <div className={styles.supporterImageContainer} key={item}>
               <ScrollAnimation animateIn="fadeIn" animateOnce delay={item * 100}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className={styles.supportersImage} src={`/images/supporter${item}.png`} alt="supporter" />
+                <img className={styles.supportersImage} src={`/images/supporter1.png`} alt="supporter" />
               </ScrollAnimation>
             </div>
           ))}
