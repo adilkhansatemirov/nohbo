@@ -56,7 +56,7 @@ function Description() {
           <hr />
             <a href="https://jbfitzgerald.com/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                &nbsp;&nbsp;<img className={styles.supportersImage} src="/images/supporter4.png" alt="supporter" />
+                <br /><img className={styles.supportersImage} src="/images/supporter4.png" alt="supporter" />
             </a>
 
         </div>
