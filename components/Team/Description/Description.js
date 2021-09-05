@@ -39,7 +39,7 @@ function Description() {
       <div className={styles.supportersContainer}>
         <h3 className={styles.supportersTitle}>Our Supporters</h3>            
         <div className={styles.supportersImageContainer}>
-          <ScrollAnimation animateIn="fadeIn" animateOnce  
+          <ScrollAnimation animateIn="fadeIn" animateOnce>  
           
           <a href="https://materialimpact.com/" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
