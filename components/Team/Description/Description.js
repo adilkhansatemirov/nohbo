@@ -48,6 +48,17 @@ function Description() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className={styles.supportersImage} src="/images/supporter2.png" alt="supporter" />
             </a>
+          <hr />
+            <a href="https://markcubancompanies.com/" target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className={styles.supportersImage} src="/images/supporter3.png" alt="supporter" />
+            </a>
+          <hr />
+            <a href="https://jbfitzgerald.com/" target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className={styles.supportersImage} src="/images/supporter4.png" alt="supporter" />
+            </a>
+
         </div>
 
         <div className={styles.supportersImageContainer}>
