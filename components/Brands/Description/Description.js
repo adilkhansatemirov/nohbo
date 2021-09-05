@@ -24,17 +24,7 @@ function Description() {
             <a href="https://www.sunrisesession.com" target="_blank" rel="noopener noreferrer">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />
-              </a>
-            
-            <Link href="https://www.sunrisesession.com" target="_blank" rel="noopener noreferrer">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                {/*<img src="/images/linkedin-blue.svg" alt="linkedin-blue" />*/}
-            <image className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />
-              </Link>
-            
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-            {/*<img className={styles.sunriseImage} src="/images/sunrise.png" alt="sunrise" />*/}
-            
+           </a>                        
           </ScrollAnimation>
         </div>
       </div>
