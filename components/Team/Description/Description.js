@@ -58,19 +58,8 @@ function Description() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <br /><img className={styles.supportersImage} src="/images/supporter4.png" alt="supporter" />
             </a>
-
         </div>
 
-        <div className={styles.supportersImageContainer}>
-          {[1, 2, 3, 4].map((item) => (
-            <div className={styles.supporterImageContainer} key={item}>
-              <ScrollAnimation animateIn="fadeIn" animateOnce delay={item * 100}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}               
-                <img className={styles.supportersImage} src={`/images/supporter${item}.png`} alt="supporter" />                
-              </ScrollAnimation>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );
