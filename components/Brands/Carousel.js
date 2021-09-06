@@ -5,7 +5,7 @@ var slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  var int;
+  var int = 0;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (int = 0; int < slides.length; int++) {
