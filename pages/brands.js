@@ -14,8 +14,8 @@ function Brands({ toast }) {
         <link rel="icon" href="/images/fav.png" />
       </Head>
       <Nav />
-      <Header />
-      <Description />
+    <Description />  
+    <Header />  
       <Subscribe toast={toast}/>
       <Footer />
     </div>
