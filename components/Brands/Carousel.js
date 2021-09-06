@@ -2,10 +2,10 @@ import styles from 'styles/Carousel/NohboCarousel.css';
 
 <script>
 var slideIndex = 0;
+var int;
 showSlides();
 
 function showSlides() {
-  var int = 0;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (int = 0; int < slides.length; int++) {
