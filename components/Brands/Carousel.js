@@ -3,11 +3,11 @@ import styles from 'styles/Carousel/NohboCarousel.css';
 <script>
 var slideIndex = 0;
 var int;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
 showSlides();
 
 function showSlides() {
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (int = 0; int < slides.length; int++) {
     slides[int].style.display = "none";  
   }
